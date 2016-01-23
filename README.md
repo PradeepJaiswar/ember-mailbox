@@ -1,7 +1,6 @@
 # Ember-mailbox
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is simple mailbox application with using localstogare from https://github.com/locks/ember-localstorage-adapter/tree/master. 
 
 ## Prerequisites
 

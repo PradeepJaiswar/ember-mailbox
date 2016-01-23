@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-mailbox',
+    podModulePrefix: 'ember-mailbox/components',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

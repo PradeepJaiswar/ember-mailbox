@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('mails')	
+  this.route('mails', { path: '/mails/:mail_id' });
+  this.route('compose');
 });
 
 export default Router;

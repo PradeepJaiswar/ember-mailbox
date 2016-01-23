@@ -10,3 +10,17 @@
     "Chrome"
   ]
 }
+
+
+ // var item = this.store.createRecord('mail', {
+      //          id:'2',  
+      //          from: "Mitul Thakkar",
+      //          fromEmails: 'mitul.thakkar@inin.com',
+      //          to: 'Pradeep Jaiswar', 
+      //          toEmail : 'pradeep.Jaiswar@inin.com',
+      //          subject :'Issue in mail service',
+      //          description: 'Can you please look into this asap.',
+      //       date:"14 Jan 2015 4 am"
+      //           });
+      // item.save();
+

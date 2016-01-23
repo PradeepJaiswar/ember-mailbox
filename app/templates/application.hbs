@@ -1,3 +1,16 @@
-<h2 id="title">Welcome to Ember</h2>
+{{page-header 
+	title='You have 100 unread mails!' 
+	avatar='http://jsmokes.in/wp-content/uploads/2013/12/998963_770614876283160_1605016412_n.jpg'
+}}
+
+<div id='mailContainer'>
+
+<!--left side bar -->
+{{mail-list objMails=mails}}
 
 {{outlet}}
+
+</div>
+
+
+

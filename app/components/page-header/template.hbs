@@ -1,0 +1,16 @@
+<div id='header'>
+	<div id='header-left'>
+		<span>
+			Mailbox
+		</span>
+	</div>
+	<div id="composeLink">
+		{{#link-to 'compose'}}
+			<span id='composeIcon'>+ </span> New
+		{{/link-to}}
+	</div>
+	<div id='header-center' >
+		{{main-search}}
+	</div>
+	{{user-profile avatar=avatar }}
+</div>

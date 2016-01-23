@@ -1,0 +1,22 @@
+<form {{action "sendMail" on="submit"}} >
+	<div id='composeForm'>
+		<div class='label'>To</div>
+			<div class='inputTo'>
+				{{input value=to name='to' class='composeInput' }} 	
+			</div>
+			<div>
+				{{input value=subject name='subject' class='composeInput' placeholder='subject'}}
+			</div>
+			<div id='composeTextArea'  >
+				<!-- 
+				{{textarea value=description cols="80" rows="6" placeholder='Click here and start typing your mail' id='composeTextAreaInput'}}
+				-->
+			{{tinymce-editor value=description }}	
+
+			</div>
+			<div id='sendMail'>
+				  {{input  type="submit" id='sendMailButton' value='Send' }}
+			</div>
+	</div>
+</form>
+

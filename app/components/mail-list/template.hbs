@@ -1,0 +1,15 @@
+<div id='mailList'>
+{{#each objMails  as |mail|}}
+		{{#link-to 'mails' mail.id}}
+        <div class='mlist'>
+        <div class='from'>{{mail.from}}</div>
+        <div class='subject'>>{{mail.subject}}</div>
+        <div class='description'>{{ remove-html html=mail.description}}</div>
+        </div>
+        {{/link-to}}
+  {{else}}
+        <div id='nomails' >
+         You have no mails in your inbox!
+        </div>
+{{/each}}
+</div >

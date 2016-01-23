@@ -1,0 +1,26 @@
+{{#if mailDetails}}
+<div id='mailDetails' > 
+
+	 <div id="deleteMail">
+	  	<span {{ action 'deleteMail' mailDetails.id on='click' }} > Delete </span>
+	 </div>
+
+	 <!-- show mail subject -->
+	 {{mail-detail-subject subject=mailDetails.subject}}
+
+	 <!-- show mail from details --> 
+	 {{mail-detail-from from=mailDetails.from fromEmails=mailDetails.fromEmails to=mailDetails.to toEmail=mailDetails.toEmail}}
+ 
+	 <!-- show mail date --> 
+	 {{mail-detail-date date=mailDetails.date}}
+
+ 	 <hr id='mDetailline'> <!--good looking line-->
+
+	 <!-- Show entire  details component-->
+	 {{mail-detail-description description=mailDetails.description}}
+</div>
+{{else}}
+ <div id='emptyView'>
+ 	<span>Select an item to view.</span>
+ </div>
+{{/if}}

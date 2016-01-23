@@ -1,0 +1,220 @@
+/*** The Essential Code ***/
+body {
+	margin: 0;
+	padding-left: 200px;    /* LC fullwidth */
+	padding-right: 190px;   /* RC fullwidth + CC padding */
+	font-family: serif;
+}
+#footer {
+	clear: both;
+}
+/*** Just for Looks ***/
+body {
+	background: #FFF;
+}
+#header, #footer {
+	font-size: large;
+	text-align: center;
+	background: #b5d7e3;
+	height: 40px;
+}
+#header-left {
+	float: left;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	min-height: 40px; 
+}
+#header-left span{
+	padding: 20px; 
+	line-height: 37px;
+}
+#header-right {
+	top: 0;
+	position: absolute;
+	right: 191px;
+}
+#avatar {
+	height: 40px;
+	width: 40px;
+
+}
+#header-center{
+	text-align: center;
+	color: #000;
+}
+#mailDetails {
+	border: 1px solid #b5d7e3;
+	margin-left: 20%;
+	height: 900px;
+	padding-bottom: 5px;
+}
+#mailContainer {
+	top: 40px;
+	height: 900px;
+}
+#mailList{
+	float: left;
+	border: 1px solid #b5d7e3;
+	width: 20%;
+	height: 900px;
+	padding-top: 15px;
+}
+.mlist{
+	height: 70px;
+	/*border-bottom: 1px solid #c8c8c8; */  
+}
+.from {
+	padding: 5px 0 0 15px;
+	font-size: 17px;
+	color: #333;   
+}
+.subject {
+	padding: 0 0 2px 8px;
+	font-size: 12px;
+	color: #0e5470;
+	font-weight: bold;
+}
+.description {
+	padding: 0 0 2px 15px;
+	font-size: 12px;
+}
+#mDetailSubject{
+	padding: 10px 0 0 50px;
+	font-size: 30px;
+	color: #334685;
+}
+#mDetailFrom {
+	padding: 10px 0 0 50px;
+	color: #334685;
+	float: left;
+	padding: 15px 0 0 50px;
+}
+#mDetailFromBox{
+	background: #99b433;
+	color: #fff;
+	width: 50px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+}
+#search {
+	width: 30%;
+	height: 28px;
+	margin: 2px;
+}
+#mDetailDate{
+	float: right;
+	margin: 10px 30px 0 0;
+}
+#mDetailline {
+	margin: 50px 30px 30px 30px;
+	color: #334685;
+	line-height: 1px;
+}
+#mDetailDescription{
+	padding: 10px 0 0 50px; 
+}
+#mailList a {
+	text-decoration: none;
+}
+#mailList a.active div {
+	background-color: #9dcddf; 
+}
+#nomails {
+	text-align: center;
+	padding: 27px;
+	font-size: 18px;
+}
+#emptyView{
+	position: relative;
+	top: 80px;
+	text-align: center;
+}
+.label{
+	background-color: #f4f4f4;
+	color: #c8c8c8;
+	padding: 10px;
+	width: 3%;
+	float: left;
+	text-align: right;
+}
+#composeLink{
+	float: left;
+	line-height: 40px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #000;
+
+}
+#composeLink a{
+	text-decoration: none;
+	color: #000;
+}
+.clear {
+	clear: both;
+}
+#composeForm {
+	text-align: left;
+	position: absolute;
+	left: 32%;
+	width: 53%;
+	top: 65px;
+}
+.composeInput {
+	height: 45px;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 2px solid #ddd;
+	width: 100%;
+	font-size: 16px;
+}
+.inputTo{
+	width: 92%;
+	margin-left: 10px;
+	float: left;
+}
+#composeIcon{
+
+}
+#composeTextAreaInput{
+	min-height: 350px;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	width: 100%;
+	font-size: 16px;
+}
+#composeTextArea{
+	padding-top: 10px;
+}
+#sendMailButton{
+	background-color: transparent;
+	border: none;
+	color: #000;
+	font-size: 17px;
+	position: absolute;
+	top: -55px;
+	cursor: pointer;
+	font: 25px;
+	font-family: serif;
+	outline: none !important;
+}
+
+#deleteMail span{float: right;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9dcddf;
+    cursor: pointer;
+}
+
+#composeTextArea iframe {
+	height: 500px !important;
+}
+
+.mce-tinymce {
+	border: 0px !important;
+}

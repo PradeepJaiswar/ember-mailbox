@@ -1,5 +1,5 @@
 let session = {
-	getName (){ return 'Pradeep.Jaiswar' };
+	getName (){ return 'Pradeep.Jaiswar' },
 	
 	getEmail (){ return 'Pradeep.Jaiswar@inin.com' },
 };

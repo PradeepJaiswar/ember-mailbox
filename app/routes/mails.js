@@ -5,7 +5,7 @@ export default Ember.Route.extend({
       return this.store.findRecord('mail',params.mail_id);
     }
   },
-  setupController: function(controller, model,params) {
+  setupController: function(controller, model) {
     controller.set('mailDetails', model);
   },
   actions: {
